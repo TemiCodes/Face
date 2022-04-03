@@ -1,0 +1,42 @@
+<html>
+    <head>
+        <title>Image recognition</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+    
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/webcamjs/1.0.26/webcam.js"></script>
+    
+       <link rel="stylesheet" href="style.css">
+      
+      </head>
+     <center>
+         <body>
+          <h1 class="btn btn-default">
+            Face Recognizer
+          </h1>
+          <div>
+              <h4>
+                  Sister1
+              </h4>
+              <hr>
+              <h4>
+                  Brother
+              </h4>
+              <hr>
+              <h4>
+                Sister2
+            </h4>
+          </div>
+          <h2>Webcam:</h2>
+          <div id="cam"> </div>
+          <button class="btn btn-info" onclick="Take_picture()"> Take Picture </button>
+          <h2>Picture:</h2>
+          <div id="pic"> </div>
+          <button class="btn btn-success" onclick="Identify_picture()">Identify Picture</button>
+      </body>
+
+     </center>
+      
+</html>
